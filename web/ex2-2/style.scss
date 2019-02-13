@@ -1,0 +1,29 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.logo{
+	object-fit:contain;
+	width:200px;
+	height:200px;
+}
+
+.beer {
+	width:200px;
+	font-size:13px;
+	text-align:center;
+	border:groove 1px black;
+	border-radius:5px;
+}
+
+#beers{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}

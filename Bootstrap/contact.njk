@@ -1,0 +1,78 @@
+{# The main page of the application #}
+
+{% extends "_common.njk" %}
+
+{% block content %}
+
+<!------ <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> ---------->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<section id="Contact-form">
+  <br>
+      <div class="container">
+        <div class="contact-header" align="center">
+          <h2>Contact us.</h2>
+        </div>
+        <!-- Form  -->
+        <form>
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <h4 align="center"><strong>Innovation.io</strong></h4>
+                <p align="center"><strong>Address:</strong> Matiti Street 53B <br>Abu-Dabi<br><br><strong>Contact:</strong> +91-123456987</p>
+              </div>
+            <div class="col-md-4 col-sm-4 ">
+                <div class="form-group">
+                  <label for="exampleInputUsername">Name</label>
+                  <input type="email" class="form-control" id="exampleInputUsername" placeholder=" Enter Your Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmailId">Email-id</label>
+                  <input type="password" class="form-control" id="exampleInputEmailId" placeholder="Enter email-id">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputnumber">Mobile-no</label>
+                  <input type="password" class="form-control" id="exampleInputnumber" placeholder="Enter 10 Digit Mobile-no ">
+                </div>   
+                
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="form-group">
+                  <label for="exampleInputtext">Subject</label>
+                  <input type="password" class="form-control" id="exampleInputtext" placeholder="Enter Message title">
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea  class="form-control" for="inputMessage" placeholder="Enter Your Message"></textarea>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-md btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit Message</button>
+                </div>
+                <br>
+              </div>
+              
+          </div>
+        </form>
+
+        <!------ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+Include the above in your HEAD tag ---------->
+
+<h1>where to find us :</h1>
+    <div class="row">
+      <div class="col-md-3"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.9577697739874!2d-89.21424329999999!3d48.457339800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923eaca84fa67%3A0xfd2f9f807114acd4!2s292+Shuniah+St%2C+Thunder+Bay%2C+ON+P7A+3A2!5e0!3m2!1sen!2sca!4v1424272931061" width=100% height="450" frameborder="0" style="border:0"></iframe>
+      </div>
+
+    </div>
+    
+    
+    
+
+  </section>
+
+
+
+{% endblock %}
